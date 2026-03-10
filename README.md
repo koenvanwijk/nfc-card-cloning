@@ -1,6 +1,6 @@
 # NFC Card Cloning
 
-This project focuses on reading and cloning NFC cards with a Primark Easy NFC writer. The application is designed to handle 7-byte card information, supporting older and newer versions of NFC cards.
+This project focuses on reading and cloning NFC cards with a Proxmark3 Easy NFC reader/writer. The application is designed to handle 7-byte card information, supporting older and newer versions of NFC cards.
 
 ## Features
 
@@ -13,7 +13,7 @@ This project focuses on reading and cloning NFC cards with a Primark Easy NFC wr
 
 ## Requirements
 
-- [Primark Easy NFC Writer](https://example.com) (or similar hardware).
+- [Proxmark3 Easy NFC Reader/Writer](https://github.com/RfidResearchGroup/proxmark3) (or similar hardware).
 - Python 3.10+
 - pipenv (or another package manager).
 
