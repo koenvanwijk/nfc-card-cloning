@@ -38,3 +38,15 @@ This project focuses on reading and cloning NFC cards with a Proxmark3 Easy NFC 
 
 - Ensure you have the legal right to clone the NFC cards you are working with.
 - Unauthorized card cloning is strictly prohibited and may be illegal.
+
+## Safe Proxmark3 Workflow (Read-Only)
+
+- Build/setup guide: `docs/proxmark3-build.md`
+- Verification checklist: `docs/tag-verification-checklist.md`
+- Audit script: `scripts/proxmark_readonly_audit.sh`
+
+Example:
+```bash
+./scripts/proxmark_readonly_audit.sh /dev/ttyACM0
+```
+
