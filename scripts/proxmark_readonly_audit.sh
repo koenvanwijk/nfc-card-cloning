@@ -5,7 +5,7 @@ set -euo pipefail
 # Purpose: identify/tag-inspect cards without performing write/clone operations.
 
 PM3_BIN="${PM3_BIN:-pm3}"
-PORT="${1:-/dev/ttyACM0}"
+PORT="${1:-/dev/tty_reader}"
 OUT_DIR="${2:-./artifacts}"
 TS="$(date +%Y%m%d_%H%M%S)"
 RUN_DIR="${OUT_DIR}/audit_${TS}"
